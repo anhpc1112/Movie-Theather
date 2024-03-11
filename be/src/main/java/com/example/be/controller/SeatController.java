@@ -25,7 +25,7 @@ public class SeatController {
         Seat seat = seatRepository.save(
                 Seat.builder()
                         .seatNumber(req.getSeatNumber())
-                        .rowNumber(req.getRowNumber())
+                        .seatRow(req.getRowNumber())
                         .seatStatus(SeatStatus.AVAILABLE)
                         .build());
         return ResponseEntity.ok(seat);

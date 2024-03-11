@@ -8,5 +8,5 @@ import java.util.Optional;
 
 @Repository
 public interface SeatRepository extends JpaRepository<Seat, Long> {
-    Optional<Seat> findByRowNumberAndSeatNumber(String rowNumber, String seatNumber);
+    Optional<Seat> findBySeatRowAndSeatNumber(String row, String seatNumber);
 }

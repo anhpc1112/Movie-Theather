@@ -15,7 +15,7 @@
     <description>be</description>
     <properties>
         <java.version>17</java.version>
-        <sql-connector.version>8.0.28</sql-connector.version>
+        <sql-connector.version>8.0.15</sql-connector.version>
     </properties>
     <dependencies>
         <dependency>
