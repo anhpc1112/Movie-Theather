@@ -1,4 +1,4 @@
-package com.example.be.common;
+package com.example.be.model;
 
 import com.example.be.utils.Constants;
 import com.fasterxml.jackson.annotation.JsonFormat;

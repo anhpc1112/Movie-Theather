@@ -1,7 +1,6 @@
 package com.example.be.model;
 
 
-import com.example.be.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
