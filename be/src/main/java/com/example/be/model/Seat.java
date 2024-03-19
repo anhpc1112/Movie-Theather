@@ -2,8 +2,9 @@ package com.example.be.model;
 
 import com.example.be.enums.PaymentStatus;
 import com.example.be.enums.SeatStatus;
-import jakarta.persistence.*;
 import lombok.*;
+
+import javax.persistence.*;
 
 
 @Data

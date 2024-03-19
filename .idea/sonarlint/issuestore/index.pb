@@ -8,5 +8,3 @@ b
 :
 
 be/pom.xml,7\1\712b780156edebac7c010d551735cd10133bda07
-f
-6be/src/main/java/com/example/be/common/BaseEntity.java,e\b\eba308cde953067210c4718807d0e29796f22c73
