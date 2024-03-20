@@ -46,11 +46,12 @@ public class GoogleApiServiceHandler extends AbstractAuthorizationCodeServlet {
 
     @Override
     protected AuthorizationCodeFlow initializeFlow() throws ServletException, IOException {
-        return new GoogleAuthorizationCodeFlow.Builder(
-                new NetHttpTransport(), GsonFactory.getDefaultInstance(),
-                clientId, clientSecret,
-                Collections.singleton(CalendarScopes.CALENDAR)).setDataStoreFactory(
-                DATA_STORE_FACTORY).setAccessType("offline").build();
+//        return new GoogleAuthorizationCodeFlow.Builder(
+//                new NetHttpTransport(), GsonFactory.getDefaultInstance(),
+//                clientId, clientSecret,
+//                Collections.singleton(CalendarScopes.CALENDAR)).setDataStoreFactory(
+//                "test").setAccessType("offline").build();
+        return null;
     }
 
     @Override
