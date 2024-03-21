@@ -1,6 +1,4 @@
 
-\
-,be/src/main/resources/application.properties,c\f\cf2076a6fe02452c6ecc74923259f6d81b25d317
 b
 2be/src/main/java/com/example/be/BeApplication.java,2\f\2fdbf84e2e0bb7960032f298fd7fd7781b922bef
 :
