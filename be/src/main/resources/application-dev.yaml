@@ -15,13 +15,14 @@ spring:
       client:
         registration:
           google:
-            #                    client-id: <AAA>
-            #                    client-secret: <AAA>
+            client-id: 594756081877-lfiu7p9vtj9vptbdbvdllqfk0gdhd09s.apps.googleusercontent.com
+            client-secret: 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
+#            redirect-uri: "{baseUrl}/oauth2/callback/{registrationId}"
             scope: openid,profile,email
-      resourceserver:
-        jwt:
-          issuer-uri: https://accounts.google.com
-          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+#      resourceserver:
+#        jwt:
+#          issuer-uri: https://accounts.google.com
+#          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
 
 google:
   api:
